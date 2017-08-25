@@ -1,0 +1,502 @@
+  906  for file in *.pdb; do echo analyze $file > analyzed-$file; done
+  907  ll -tr
+  908  ll -tr
+  909  rm analyzed-*
+  910  ll
+  911  for file in *.pdb; do echo "analyze $file"  > analyzed-$file; done
+  912  ll -tr
+  913  rm analyzed-*
+  914  for file in *.pdb; do echo "analyze $file  > analyzed-$file"; done
+  915  pwd
+  916  ll -tr
+  917  for file in *.pdb; do echo "analyze $file  > analyzed-$file"; done
+  918  ll -rt
+  919  ll
+  920  ll -tr
+  921  for file in *.pdb; do echo analyze $file  > analyzed-$file; done
+  922  ll -tr
+  923  more analyzed-aldrin.pdb 
+  924  for file in *.pdb; do echo "analyze $file  > analyzed-$file"; done
+  925  rm analyzed-*
+  926  ll
+  927  touch file.txt
+  928  ll
+  929  ll -tr
+  930  touch {1..10}file.txt
+  931  ll -tr
+  932  touch file{1..10}.txt
+  933  ll -tr
+  934  history 
+  935  ll -tr
+  936  pwd
+  937  cd ..
+  938  ll
+  939  cd pdb/
+  940  ll
+  941  rm file*.txt
+  942  ll
+  943  ls
+  944  rm *txt
+  945  ll
+  946  ls
+  947  pwd
+  948  cd ..
+  949  ll
+  950  cd ..
+  951  ll
+  952  pwd
+  953  cd molecules/
+  954  ll
+  955  pwd
+  956  ll
+  957  nano middle.sh 
+  958  ll
+  959  ll -tr
+  960  pwd
+  961  ll -tr
+  962  more middle.sh 
+  963  chmod a+x middle.sh 
+  964  ./middle.sh 
+  965  wc -l octane.pdb 
+  966  cat middle.sh 
+  967  nano middle.sh &
+  968  ps
+  969  ll -tr
+  970  nano middle.sh 
+  971  more middle.sh 
+  972  bash middle.sh  propane.pdb 
+  973  bash middle.sh  octane.pdb 
+  974  bash middle.sh  octane.pdb 
+  975  bash middle.sh  methane.pdb 
+  976  pwd
+  977  ll
+  978  nano script.sh
+  979  ll
+  980  bash script.sh '*.pdb' 1 1 
+  981  bash script.sh '*.pdb' 1 1 
+  982   pwd
+  983  ll
+  984  ll -tr
+  985  pwd
+  986  cd ..
+  987  ll
+  988  cd writing/
+  989  ll
+  990  ll -tr
+  991  ll -tr
+  992  cat haiku.txt 
+  993  ll
+  994  pwd
+  995  ll -tr
+  996  cat haiku.txt 
+  997  clear
+  998  clear
+  999  cat haiku.txt 
+ 1000  grep not  haiku.txt 
+ 1001  grep my  haiku.txt 
+ 1002  grep My  haiku.txt 
+ 1003  grep The  haiku.txt 
+ 1004  grep "The"  haiku.txt 
+ 1005  grep -w The  haiku.txt 
+ 1006  grep -w "is not"  haiku.txt 
+ 1007  grep -w "is not" -l  haiku.txt 
+ 1008  grep -n -w "is not"   haiku.txt 
+ 1009  grep -n it   haiku.txt 
+ 1010  grep -n -w it   haiku.txt 
+ 1011  grep -n -w -i "the" haiku.txt 
+ 1012  grep --help
+ 1013  man grep
+ 1014  grep -E '^.o' haiku.txt'
+
+quit
+ 1015  pwd
+ 1016  grep -E '^.o' haiku.txt
+ 1017  find
+ 1018  find .
+ 1019  pwd
+ 1020  find .
+ 1021  find one .
+ 1022  find one.txt .
+ 1023  ll
+ 1024  find . haiku.txt 
+ 1025  find . -type d  
+ 1026  find . -type f
+ 1027  find . -name *.txt
+ 1028  find . -type f
+ 1029  find . -name '*.txt'
+ 1030  find . -name *.txt
+ 1031  find . -name "*.txt"
+ 1032  find . -name "*.txt"
+ 1033  find . -name *.txt
+ 1034  find . -name '*.txt'
+ 1035  find . -name echo '*.txt'
+ 1036  echo find . -name '*.txt'
+ 1037  echo find . -name *.txt
+ 1038  echo find . -name '*.txt'
+ 1039  echo find . -name "*.txt"
+ 1040  pwd
+ 1041  cd ..
+ 1042  cd ..
+ 1043  ll
+ 1044  cd ..
+ 1045  ll
+ 1046  cd python/
+ 1047  mv ~/Downloads/python-novice-inflammation-data.zip .
+ 1048  ll
+ 1049  unzip python-novice-inflammation-data.zip 
+ 1050  ll
+ 1051  pwd
+ 1052  ll
+ 1053  pwd
+ 1054  ll -tr
+ 1055  pwd
+ 1056  mv ~/Downloads/python-novice-inflammation-code.zip .
+ 1057  ll
+ 1058  unzip python-novice-inflammation-code.zip 
+ 1059  ll
+ 1060  cd code/
+ 1061  ll
+ 1062  pwd
+ 1063  pwd
+ 1064  ll
+ 1065  cd ..
+ 1066  ll
+ 1067  pwd
+ 1068  ll code/
+ 1069  ll data/
+ 1070  pwd
+ 1071  pwd
+ 1072  ll
+ 1073  ll __MACOSX/
+ 1074  ll __MACOSX/code/
+ 1075  ll __MACOSX/code/
+ 1076  pwd
+ 1077  ll
+ 1078  pwd
+ 1079  pwd
+ 1080  ll
+ 1081  python
+ 1082  pwd
+ 1083  ll -tr
+ 1084  jupiter-notebook
+ 1085  pwd
+ 1086  python
+ 1087  pwd
+ 1088  ll
+ 1089  cd data/
+ 1090  ll
+ 1091  ll -tr
+ 1092  more small-01.csv 
+ 1093  more small-02.csv 
+ 1094  more small-03.csv 
+ 1095  python
+ 1096  ps
+ 1097  kill -9 7163
+ 1098  python
+ 1099  cd ..
+ 1100  cd ..
+ 1101  pwd
+ 1102  ll
+ 1103  cd git
+ 1104  ll
+ 1105  git
+ 1106  git config --global -l 
+ 1107  pwd
+ 1108  ll
+ 1109  ll ~/.gitconfig 
+ 1110  more  ~/.gitconfig 
+ 1111  git config --global core.editor "emacs"
+ 1112  more  ~/.gitconfig 
+ 1113  pwd
+ 1114  ll
+ 1115  which emacs
+ 1116  emacs README.txt &
+ 1117  pwd
+ 1118  mkdir planets
+ 1119  cd planets/
+ 1120  ll
+ 1121  git init
+ 1122  ls -laF
+ 1123  Initial commit
+ 1124  git status 
+ 1125  pwd
+ 1126  git config --list
+ 1127  pwd
+ 1128  ll -tr
+ 1129  mkdir moons
+ 1130  cd moons/
+ 1131  ll
+ 1132  git init
+ 1133  ll
+ 1134  pwd
+ 1135  git status 
+ 1136  pwd
+ 1137  ll
+ 1138  touch test.txt
+ 1139  ll
+ 1140  git add test.txt 
+ 1141  ll
+ 1142  pwd
+ 1143  ll
+ 1144  ll > test.txt 
+ 1145  ll
+ 1146  more test.txt 
+ 1147  git status
+ 1148  pwd
+ 1149  ll
+ 1150  cd ..
+ 1151  ll
+ 1152  pwd
+ 1153  git status
+ 1154  pwd
+ 1155  ll
+ 1156  pwd
+ 1157  ll
+ 1158  emacs mars.txt &
+ 1159  pwd
+ 1160  ll
+ 1161  git status 
+ 1162  ll -a
+ 1163  more .git/
+ 1164  ll .git/
+ 1165  ll -F .git/
+ 1166  pwd
+ 1167  cd .git/
+ 1168  ll
+ 1169  more HEAD 
+ 1170  cd ..
+ 1171  ll
+ 1172  pwd
+ 1173  ll
+ 1174  git add mars.txt 
+ 1175  git status
+ 1176  rm -rf moons/
+ 1177  ll
+ 1178  ll
+ 1179  git status 
+ 1180  git commit -m "Start note on Mars as a base"
+ 1181  git status
+ 1182  git status 
+ 1183  pwd
+ 1184  ll
+ 1185  ll
+ 1186  git status 
+ 1187  git status 
+ 1188  git status 
+ 1189  touch venus.txt
+ 1190  ll
+ 1191  git status 
+ 1192  git add venus.txt 
+ 1193  git commit -m "updaed mars and add venus"
+ 1194  git status
+ 1195  git commit -a
+ 1196  git status 
+ 1197  pwd
+ 1198  ll
+ 1199  git status 
+ 1200  git commit -a -m "update all"
+ 1201  status 
+ 1202  git status 
+ 1203  pwd
+ 1204  git status 
+ 1205  git diff mars.txt 
+ 1206  git diff
+ 1207  git diff
+ 1208  git status
+ 1209  git commit
+ 1210  git commit -a
+ 1211  git status
+ 1212  git diff
+ 1213  pwd
+ 1214  ll -tr
+ 1215  pwd
+ 1216  git diff
+ 1217  git undo commit
+ 1218  git undocommit
+ 1219  git diff
+ 1220  pwd
+ 1221  touch mercury.txt
+ 1222  git status
+ 1223  git diff --staged
+ 1224  pwd
+ 1225  ll
+ 1226  git diff --staged
+ 1227  git diff
+ 1228  git diff
+ 1229  git status 
+ 1230  git add mercury.txt 
+ 1231  git status
+ 1232  git diff
+ 1233  git status
+ 1234  git diff
+ 1235  git diff --staged
+ 1236  ll
+ 1237  git add mars.txt 
+ 1238  git status
+ 1239  git log
+ 1240  git log
+ 1241  git log
+ 1242  git diff
+ 1243  git log -1
+ 1244  git log -5
+ 1245  git log -2
+ 1246  git log --online
+ 1247  git log --oneline
+ 1248  pwd
+ 1249  git status
+ 1250  touch test.txt
+ 1251  ll
+ 1252  git commit -m test.txt "here I am"
+ 1253  git commit -m  "here I am" test.txt 
+ 1254  ll
+ 1255  status 
+ 1256  git status
+ 1257  git add venus.txt 
+ 1258  git status
+ 1259  git commit venus.txt mars.txt -m "commit venus and mars"
+ 1260  git status 
+ 1261  git log
+ 1262  git diff
+ 1263  git diff --staged
+ 1264  git status 
+ 1265  git commit mercury.txt -m "commit mercury"
+ 1266  git status
+ 1267  git diff 
+ 1268  git diff --staged 
+ 1269  git diff --staged 
+ 1270  git log 
+ 1271  git log --oneline
+ 1272  pwd
+ 1273  ll
+ 1274  ll -tr
+ 1275  git status
+ 1276  ll
+ 1277  mkdirmkdir noons
+ 1278  mkdir moons
+ 1279  ll
+ 1280  pwd
+ 1281  git status 
+ 1282  touch moons/.gitkeep
+ 1283  ll -a 
+ 1284  ll -a moons/
+ 1285  git status 
+ 1286  mkdir satalites
+ 1287  git status 
+ 1288  ll
+ 1289  git status 
+ 1290  touch satalites/junk.txt
+ 1291  git status 
+ 1292  pwd
+ 1293  ll
+ 1294  git log
+ 1295  ll
+ 1296  git add moons/
+ 1297  git commit moons/ -m "add dir moons/"
+ 1298  git status 
+ 1299  git status 
+ 1300  ll
+ 1301  git status 
+ 1302  ll
+ 1303  git statu s
+ 1304  git status
+ 1305  ll
+ 1306  rm -rf moons/
+ 1307  ll
+ 1308  git status 
+ 1309  git checkout
+ 1310  ll
+ 1311  git status 
+ 1312  git diff
+ 1313  git diff HEAD mars.txt 
+ 1314  git diff HEAD~1  mars.txt 
+ 1315  git diff HEAD~5  mars.txt 
+ 1316  git show 
+ 1317  git show HEAD~2 mars.txt 
+ 1318  git show 8630e1df9908950fe9ac612c4f2176517cbd6f9b venus.txt 
+ 1319  git log --oneline
+ 1320  git show 8630e1d mars.txt 
+ 1321  git show HEAD~3 mars.txt 
+ 1322  git show HEAD~2 mars.txt 
+ 1323  git log 
+ 1324  git log --oneline
+ 1325  git show  92a34  mars.txt 
+ 1326  git show  92a  mars.txt 
+ 1327  git show  92a3  mars.txt 
+ 1328  git show  92a  mars.txt 
+ 1329  pwd
+ 1330  ll
+ 1331  git status 
+ 1332  git diff
+ 1333  git status 
+ 1334  git log --oneline
+ 1335  git diff 92a34bc/mars.txt  7249c26/mars.txt
+ 1336  git show  92a34bc/mars.txt  7249c26/mars.txt
+ 1337  git checkout HEAD~4 mars.txt 
+ 1338  cat mars.txt 
+ 1339  ll -tr
+ 1340  git checkout HEAD~1 mars.txt 
+ 1341  cat mars.txt 
+ 1342  ll
+ 1343  git checkout HEAD~2 moons
+ 1344  git checkout HEAD~1 moons
+ 1345  git checkout HEAD~3 moons
+ 1346  ll -tr
+ 1347  git checkout HEAD~0 moons
+ 1348  ll
+ 1349  ll moons/
+ 1350  ll
+ 1351  ll -a moons/
+ 1352  git status
+ 1353  git checkout HEAD~1 moons
+ 1354  git status 
+ 1355  git add satalites/
+ 1356  git status 
+ 1357  git commit satalites/
+ 1358  ll
+ 1359  git status 
+ 1360  ll moons/
+ 1361  ll -tr
+ 1362  git status
+ 1363  ll
+ 1364  git checkout master 
+ 1365  more satalites/junk.txt 
+ 1366  more satalites/junk.txt 
+ 1367  git checkout master 
+ 1368  ll
+ 1369  more satalites/junk.txt 
+ 1370  git log
+ 1371  git status 
+ 1372  git commit satalites/ -m "update junk line2"
+ 1373  git status 
+ 1374  git log 
+ 1375  ll
+ 1376  pw
+ 1377  git revert 
+ 1378  git revert 
+ 1379  git status 
+ 1380  git log --oneline 
+ 1381  git revert 5ca5dd1
+ 1382  git status 
+ 1383  git status 
+ 1384  ll
+ 1385  ll
+ 1386  git checkout 
+ 1387  ll
+ 1388  ll
+ 1389  git log
+ 1390  ll
+ 1391  more satalites/junk.txt 
+ 1392  git checkout satalites/
+ 1393  ll
+ 1394  git checkout moons
+ 1395  git checkout HEAD~5 moons
+ 1396  git checkout HEAD~2 moons
+ 1397  ll
+ 1398  ll moons/
+ 1399  ll
+ 1400  ll moons/
+ 1401  ll -aF moons/
+ 1402  git status 
+ 1403  touch moons/junk2.txt 
+ 1404  ll
+ 1405  history > moons/junk2.txt 
